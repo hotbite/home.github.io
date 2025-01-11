@@ -1,0 +1,13 @@
+.header{
+    background-color: lightcoral;
+    padding: 5px;
+
+}
+.header h{
+    font-weight: bolder;
+
+}
+.body{
+    background-color: lightblue;
+    padding: 5px;
+}

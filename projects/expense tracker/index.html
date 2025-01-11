@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>expense tracker</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <h id="lo">walian studio
+            <br>
+            <br>
+        </h>
+        <div class="header">
+            <h1>Expense Tracker</h1>
+        </div>
+        <div class="fields">
+            <table id="table">
+                <tr>
+                    <td>
+                        <input type="text" placeholder="expense name" id="name"/>
+                    </td>
+                    <td>
+                        <input type="number" placeholder="expense amount" id="amount"/>
+                    </td>
+                    <td id="category">
+                        <select id="ct">
+                            <option>No category</option>
+                            <option>Grocery</option>
+                            <option>Travel</option>
+                            <option>Drinks</option>
+                            <option>Medicine</option>
+                            <option>Fashion</option>
+                            <option>Food</option>
+                            <option>Home Interier</option>
+                            <option>Accessories</option>
+                            <option>Luxery</option>
+                        </select>
+                    </td>
+                    <td id="date">
+                        <input type="date" id="dt"/>
+                    </td>
+                    <td>
+                        <button id="add" onclick="add()">Add</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><hr></td>
+                    <td><hr></td>
+                    <td><hr></td>
+                    <td><hr></td>
+                    <td><hr></td>
+                </tr>
+                <tr id="title">
+                    <td>
+                        Expense Name
+                    </td>
+                    <td>
+                        Expense Amount
+                    </td>
+                    <td>
+                        Category
+                    </td>
+                    <td>
+                        Date
+                    </td>
+                    <td>
+                        Action
+                    </td>
+                </tr>
+                <tr>
+                    <td><hr></td>
+                    <td><hr></td>
+                    <td><hr></td>
+                    <td><hr></td>
+                    <td><hr></td>
+                </tr>
+            </table>
+            <div class="summary">
+                <ul id="lst_total">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="module.js" type="module"></script>
+    <script src="script.js"></script>
+</body>
+</html>

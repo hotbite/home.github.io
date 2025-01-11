@@ -1,0 +1,79 @@
+body{
+    background-color: antiquewhite;
+}
+#lo{
+    background-color: aqua;
+    padding: 5px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.container{
+    background-color: lightskyblue;
+}
+.header{
+    background-color: rgba(144, 238, 144, 0.671);
+    padding: 5px;
+    
+}
+table{
+    background-color: rgba(2, 133, 248, 0.568);
+    width: 100%;
+}
+input{
+    border: 1px solid black;
+    outline: none;
+    background: none;
+    color: rgb(8, 0, 0);
+    font-weight: bolder;
+    
+    width: 80%;
+
+}
+input::placeholder{
+    color: rgb(72, 72, 73);
+}
+tr{
+    border: 1px solid black;
+}
+#add{
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    width: 70%;
+    background-color: lime;
+}
+#add:hover{
+    background-color: green;
+}
+p{
+    color: black;
+}
+#edt{
+    background-color: lightcoral;
+    padding: 5px;
+}
+select{
+    outline: none;
+    border: 1px solid black;
+    font-weight: bolder;
+    background: none;
+}
+option{
+    background-color: lightblue;
+    color: black;
+    font-weight: bolder;
+
+}
+button{
+    outline: none;
+    border: none;
+    
+}
+#title{
+    font-weight: bolder;
+    font-size: large;
+    font-family: arial;
+}
+#bkg{
+    background-color: lightcoral;
+}

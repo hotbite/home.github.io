@@ -1,0 +1,26 @@
+.container{
+    background-color: lightcoral;
+    width: 100%;
+
+}
+.header{
+    background-color: lightgreen;
+    height: 100px;
+
+}
+.bottom{
+    background-color: lightsalmon;
+    padding: 5px;
+
+}
+#area{
+    border: none;
+    outline: none;
+    width: 99.6%;
+    background-color: lightseagreen;
+    color: white;
+
+}
+#area::placeholder{
+    color: aliceblue;
+}

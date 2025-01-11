@@ -1,0 +1,42 @@
+table{
+    border: 1px solid black;
+    box-shadow: 0px 5px 10px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+}
+#f{
+    color: #fa09016e;
+}
+#v{
+    background-color: green;
+    padding: 5px;
+    font-weight: bolder;
+    font-family: monospace;
+    margin-bottom: 5px;
+}
+#result{
+    width: 90%;
+    border: none;
+    outline: none;
+    background-color: seagreen;
+    height: 50px;
+    font-weight: bolder;
+    color: black;
+    padding: 3px;
+    border-bottom: 2px solid black;
+}
+input[type='button']{
+    background: #a2aad6;
+    outline: none;
+    border: none;
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    
+}
+input[value]{
+    font-weight: bolder;
+    font-size: medium;
+    font-family: arial;
+}

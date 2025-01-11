@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(26, 25, 25);
+}
+.header{
+    background-color: rgb(32, 137, 178);
+    padding: 5px;
+    height: 100px;
+    width: 100%;
+}.header h{
+    font-weight: bolder;
+    background-color: orangered;
+    padding: 5px;
+}
+.body{
+    background-color: rgb(232, 240, 232);
+    padding: 5px;
+    width: 100%;
+    
+
+}
+ul{
+    width: 90.6%;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+li{
+    
+    list-style-type:decimal;
+    box-shadow: 0px 1px 2px black;
+    background-color: rgb(9, 137, 243);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    list-style-position: outside;
+}
+li:hover{
+    background-color: lightblue;
+}
+.review{
+    background-color: orangered;
+    padding: 5px;
+    width: 96.6%;
+
+}
+.review input{
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 30px;
+    background-color: lightblue;
+    color: black;
+    font-family: arial;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.review input::placeholder{
+    color: blue;
+}
+.review textarea{
+    border: none;
+    outline: none;
+    width: 96.6%;
+    color: black;
+    font-weight: bold;
+    font-family: arial;
+    font-size: medium;
+}
+.review textarea::placeholder{
+    color: #3e3e3e;
+    font-size: small;
+    padding: 3px;
+}
+.review button{
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 25px;
+}
+.review button:hover{
+    background-color: lightseagreen;
+}

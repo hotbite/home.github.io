@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payrole manager</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <h id="lo">walian studio</h>
+        <br>
+        <br>
+        <div class="header">
+            <h>Payroll</h>
+        </div>
+        <div class="fields">
+            <label>Employee's Name</label>
+            <input type="text" id="name" placeholder="name of Employee"/>
+            <br>
+            <label>Daily Wage</label>
+            <input type="number" id="wage" placeholder="Employee's wage"/>
+            <br>
+            <label>Days</label>
+            <input type="number" id="days" placeholder="Employee's days at work"/>
+            <br>
+            <button onclick="calc()">Salary</button>
+            <p id="output"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
